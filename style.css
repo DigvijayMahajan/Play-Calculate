@@ -1,0 +1,146 @@
+.container{
+    text-align: center;
+    margin-top: 23px;
+}
+table{
+    margin: auto;
+}
+input{
+    border-radius: 20px;
+    border: 5px solid #224622;
+    font-size: 34px;
+  
+}
+button{
+    border-radius: 20px;
+    font-size: 30px;
+    background: rgb(158, 219, 58);
+    width: 102px;
+    height: 58px;
+}
+.calculator{
+    background-color: rgb(204, 80, 142);
+    padding: 23px;
+    border-radius: 53px;
+    display: inline-block;
+}
+@media(max-width: 700px){
+    .row{
+flex-direction: column;
+    }
+}
+#container {
+    text-align: center;
+    margin: auto;
+}
+#playground {
+    width: 300px;
+    height: 300px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+}
+
+.mark {
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+}
+.Play{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+   margin-top: 5%;
+   display: flex;
+   justify-content: space-evenly;
+}
+.Play-col{
+    flex-basis: 31%;
+    background: #bce9ce;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 05s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: blue;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+.nav-links ul li ::after{
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    background: #383bf4;
+    display: block;
+    margin: auto;
+    transition: 05s;
+}
+nav-links ul li :hover ::after{
+    width: 100%;
+}
+
+.course-col:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+
+}
+@media(max-width: 700px){
+    .row{
+flex-direction: column;
+    }
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
